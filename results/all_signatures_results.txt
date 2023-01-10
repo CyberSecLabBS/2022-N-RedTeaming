@@ -1,0 +1,2146 @@
+### Starting analysis of module sekurlsa::logonpasswords ###
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	100.00 %
+ -> [Match #]	298 / 298
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	4.03 %
+ -> [Match #]	12 / 298
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.01 %
+ -> [Match #]	3 / 298
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	41.95 %
+ -> [Match #]	125 / 298
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	8.72 %
+ -> [Match #]	26 / 298
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	4.03 %
+ -> [Match #]	12 / 298
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.01 %
+ -> [Match #]	3 / 298
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	23.83 %
+ -> [Match #]	71 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	87.92 %
+ -> [Match #]	262 / 298
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	69.80 %
+ -> [Match #]	208 / 298
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	69.46 %
+ -> [Match #]	207 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	69.80 %
+ -> [Match #]	208 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	100.00 %
+ -> [Match #]	298 / 298
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	4.03 %
+ -> [Match #]	12 / 298
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.01 %
+ -> [Match #]	3 / 298
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	41.95 %
+ -> [Match #]	125 / 298
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	8.72 %
+ -> [Match #]	26 / 298
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	4.03 %
+ -> [Match #]	12 / 298
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.01 %
+ -> [Match #]	3 / 298
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	23.83 %
+ -> [Match #]	71 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	87.92 %
+ -> [Match #]	262 / 298
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	69.80 %
+ -> [Match #]	208 / 298
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	69.46 %
+ -> [Match #]	207 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	69.80 %
+ -> [Match #]	208 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.60 %
+ -> [Match #]	2 / 334
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	3.59 %
+ -> [Match #]	12 / 334
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.90 %
+ -> [Match #]	3 / 334
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	37.43 %
+ -> [Match #]	125 / 334
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.60 %
+ -> [Match #]	2 / 334
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	7.78 %
+ -> [Match #]	26 / 334
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.60 %
+ -> [Match #]	2 / 334
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	3.59 %
+ -> [Match #]	12 / 334
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.90 %
+ -> [Match #]	3 / 334
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	21.26 %
+ -> [Match #]	71 / 334
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.60 %
+ -> [Match #]	2 / 334
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	62.28 %
+ -> [Match #]	208 / 334
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	61.98 %
+ -> [Match #]	207 / 334
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::3
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	62.28 %
+ -> [Match #]	208 / 334
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.59 %
+ -> [Match #]	2 / 339
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	3.54 %
+ -> [Match #]	12 / 339
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.88 %
+ -> [Match #]	3 / 339
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	34.51 %
+ -> [Match #]	117 / 339
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.59 %
+ -> [Match #]	2 / 339
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	7.67 %
+ -> [Match #]	26 / 339
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.59 %
+ -> [Match #]	2 / 339
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	3.54 %
+ -> [Match #]	12 / 339
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.88 %
+ -> [Match #]	3 / 339
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	22.71 %
+ -> [Match #]	77 / 339
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.59 %
+ -> [Match #]	2 / 339
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	58.41 %
+ -> [Match #]	198 / 339
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	58.11 %
+ -> [Match #]	197 / 339
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::4
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	58.41 %
+ -> [Match #]	198 / 339
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.44 %
+ -> [Match #]	2 / 450
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	1.56 %
+ -> [Match #]	7 / 450
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	4 / 450
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	28.00 %
+ -> [Match #]	126 / 450
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.44 %
+ -> [Match #]	2 / 450
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.44 %
+ -> [Match #]	2 / 450
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.44 %
+ -> [Match #]	2 / 450
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.44 %
+ -> [Match #]	2 / 450
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.44 %
+ -> [Match #]	2 / 450
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	8.00 %
+ -> [Match #]	36 / 450
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.44 %
+ -> [Match #]	2 / 450
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.44 %
+ -> [Match #]	2 / 450
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	46.44 %
+ -> [Match #]	209 / 450
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::5
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	46.67 %
+ -> [Match #]	210 / 450
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.60 %
+ -> [Match #]	2 / 335
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	3.58 %
+ -> [Match #]	12 / 335
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.90 %
+ -> [Match #]	3 / 335
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	34.33 %
+ -> [Match #]	115 / 335
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.60 %
+ -> [Match #]	2 / 335
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	7.76 %
+ -> [Match #]	26 / 335
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.60 %
+ -> [Match #]	2 / 335
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	3.58 %
+ -> [Match #]	12 / 335
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.90 %
+ -> [Match #]	3 / 335
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	22.99 %
+ -> [Match #]	77 / 335
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.60 %
+ -> [Match #]	2 / 335
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	58.51 %
+ -> [Match #]	196 / 335
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	58.21 %
+ -> [Match #]	195 / 335
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::6
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	58.51 %
+ -> [Match #]	196 / 335
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	100.00 %
+ -> [Match #]	225 / 225
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	5.33 %
+ -> [Match #]	12 / 225
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.33 %
+ -> [Match #]	3 / 225
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	46.67 %
+ -> [Match #]	105 / 225
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	11.56 %
+ -> [Match #]	26 / 225
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	5.33 %
+ -> [Match #]	12 / 225
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.33 %
+ -> [Match #]	3 / 225
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	32.44 %
+ -> [Match #]	73 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	84.89 %
+ -> [Match #]	191 / 225
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	79.56 %
+ -> [Match #]	179 / 225
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	80.00 %
+ -> [Match #]	180 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	79.56 %
+ -> [Match #]	179 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	79.56 %
+ -> [Match #]	179 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	100.00 %
+ -> [Match #]	225 / 225
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	5.33 %
+ -> [Match #]	12 / 225
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.33 %
+ -> [Match #]	3 / 225
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	46.67 %
+ -> [Match #]	105 / 225
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	11.56 %
+ -> [Match #]	26 / 225
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	5.33 %
+ -> [Match #]	12 / 225
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.33 %
+ -> [Match #]	3 / 225
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	32.44 %
+ -> [Match #]	73 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	84.89 %
+ -> [Match #]	191 / 225
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	79.56 %
+ -> [Match #]	179 / 225
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	80.00 %
+ -> [Match #]	180 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	79.56 %
+ -> [Match #]	179 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::no_cleartext
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	79.56 %
+ -> [Match #]	179 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	100.00 %
+ -> [Match #]	225 / 225
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	5.33 %
+ -> [Match #]	12 / 225
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.33 %
+ -> [Match #]	3 / 225
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	46.67 %
+ -> [Match #]	105 / 225
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	11.56 %
+ -> [Match #]	26 / 225
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	5.33 %
+ -> [Match #]	12 / 225
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.33 %
+ -> [Match #]	3 / 225
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	32.44 %
+ -> [Match #]	73 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	84.89 %
+ -> [Match #]	191 / 225
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	79.56 %
+ -> [Match #]	179 / 225
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.89 %
+ -> [Match #]	2 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	80.00 %
+ -> [Match #]	180 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	79.56 %
+ -> [Match #]	179 / 225
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	sekurlsa::logonpasswords::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	79.56 %
+ -> [Match #]	179 / 225
+
+### Starting analysis of module lsadump::dcsync ###
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.49 %
+ -> [Match #]	3 / 614
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	16.12 %
+ -> [Match #]	99 / 614
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.33 %
+ -> [Match #]	2 / 614
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	3.75 %
+ -> [Match #]	23 / 614
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.33 %
+ -> [Match #]	2 / 614
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	2.12 %
+ -> [Match #]	13 / 614
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.49 %
+ -> [Match #]	3 / 614
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	10.91 %
+ -> [Match #]	67 / 614
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.49 %
+ -> [Match #]	3 / 614
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	28.18 %
+ -> [Match #]	173 / 614
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	lsadump::dcsync::1
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.50 %
+ -> [Match #]	3 / 600
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	16.67 %
+ -> [Match #]	100 / 600
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.33 %
+ -> [Match #]	2 / 600
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	3.83 %
+ -> [Match #]	23 / 600
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.33 %
+ -> [Match #]	2 / 600
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	2.17 %
+ -> [Match #]	13 / 600
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.50 %
+ -> [Match #]	3 / 600
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	11.17 %
+ -> [Match #]	67 / 600
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.50 %
+ -> [Match #]	3 / 600
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	29.00 %
+ -> [Match #]	174 / 600
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	100.00 %
+ -> [Match #]	600 / 600
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	lsadump::dcsync::2
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	100.00 %
+ -> [Match #]	600 / 600
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.47 %
+ -> [Match #]	1 / 215
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	2.79 %
+ -> [Match #]	6 / 215
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.40 %
+ -> [Match #]	3 / 215
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	21.40 %
+ -> [Match #]	46 / 215
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	2.79 %
+ -> [Match #]	6 / 215
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	7.44 %
+ -> [Match #]	16 / 215
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	2.79 %
+ -> [Match #]	6 / 215
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	2.79 %
+ -> [Match #]	6 / 215
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	2.79 %
+ -> [Match #]	6 / 215
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	21.40 %
+ -> [Match #]	46 / 215
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	45.58 %
+ -> [Match #]	98 / 215
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	45.58 %
+ -> [Match #]	98 / 215
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	100.00 %
+ -> [Match #]	215 / 215
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	lsadump::dcsync::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	100.00 %
+ -> [Match #]	215 / 215
+### Starting analysis of module token::elevate ###
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	2.35 %
+ -> [Match #]	7 / 298
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.34 %
+ -> [Match #]	4 / 298
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	43.62 %
+ -> [Match #]	130 / 298
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	12.08 %
+ -> [Match #]	36 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.67 %
+ -> [Match #]	2 / 298
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	20.81 %
+ -> [Match #]	62 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	token::elevate::system
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	73.49 %
+ -> [Match #]	219 / 298
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.85 %
+ -> [Match #]	3 / 355
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.85 %
+ -> [Match #]	3 / 355
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.56 %
+ -> [Match #]	2 / 355
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.56 %
+ -> [Match #]	2 / 355
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.85 %
+ -> [Match #]	3 / 355
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	3.38 %
+ -> [Match #]	12 / 355
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.56 %
+ -> [Match #]	2 / 355
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.85 %
+ -> [Match #]	3 / 355
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.56 %
+ -> [Match #]	2 / 355
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.85 %
+ -> [Match #]	3 / 355
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.85 %
+ -> [Match #]	3 / 355
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	10.42 %
+ -> [Match #]	37 / 355
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.85 %
+ -> [Match #]	3 / 355
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.85 %
+ -> [Match #]	3 / 355
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	18.03 %
+ -> [Match #]	64 / 355
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	token::elevate::domainadmin
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	65.63 %
+ -> [Match #]	233 / 355
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref1_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/edge_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	2.46 %
+ -> [Match #]	7 / 285
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	1.40 %
+ -> [Match #]	4 / 285
+
+[Tracefile]	input_logs/benchmark/chrome_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	44.91 %
+ -> [Match #]	128 / 285
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/windbg_system_lsass_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/firefox_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/x64dbg_admin_lsass_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	12.63 %
+ -> [Match #]	36 / 285
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref2_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	0.70 %
+ -> [Match #]	2 / 285
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficecalc_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref4_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/openofficewriter_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref5_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Tracefile too short
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	strict
+ -> [Match %]	21.75 %
+ -> [Match #]	62 / 285
+
+[Tracefile]	input_logs/benchmark/mimikatz_ref3_syscalls_trace.log
+[Signature]	token::elevate::all
+[Outcome]	Check performed
+ -> [Strategy]	lax
+ -> [Match %]	75.44 %
+ -> [Match #]	215 / 285

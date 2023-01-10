@@ -1,0 +1,55 @@
+# Il formato del file è, per ciascun esperimento effettuato, il seguente:
+# [<modulo mimikatz>::<id sessione>]
+# logs_range= <id del primo e dell'ultimo file di trace delle sycalls associati a questa sessione>
+# evtx_id= <id del file .evtx contentente i log di Windows registrati per la sessione corrente, se presente>
+# scenario= <descrizione delle condizioni sperimentali testate dalla sessione corrente>
+
+[sekurlsa::logonpasswords::1]
+logs_range=101,200
+evtx_id=1
+scenario=1 logged-on local user + storage delle credenziali in cleartext disabilitato (WDigest\UseLogonCredential = 0)
+
+[sekurlsa::logonpasswords::2]
+logs_range=201,300
+evtx_id=2
+scenario=1 logged-on local user + storage delle credenziali in cleartext ABILITATO (WDigest\UseLogonCredential = 1)
+
+[sekurlsa::logonpasswords::3]
+logs_range=301,400
+evtx_id=3
+scenario=2 logged-on local users + WDiget\UseLogonCredential = 1
+
+[sekurlsa::logonpasswords::4]
+logs_range=401,500
+evtx_id=4
+scenario=2 logged-on local users + 1 logged-on domain user + WDiget\UseLogonCredential = 1
+
+[sekurlsa::logonpasswords::5]
+logs_range=501,600
+evtx_id=5
+scenario=2 logged-on local users + WDigest\UserLogonCredential = 0
+
+[sekurlsa::logonpasswords::6]
+logs_range=601,700
+evtx_id=6
+scenario=2 logged-on local users + 1 logged-on domain user + WDigest\UserLogonCredential = 0
+
+[lsadump::dcsync::1]
+logs_range=1,150
+evtx_id=1
+scenario=Used "/all" flag. Module executed as domain admin account
+
+[lsadump::dcsync::2]
+logs_range=151,300
+evtx_id=2
+scenario=Used "/user krbtgt" flag. Module executed as domain admin account
+
+[token::elevate::system]
+logs_range=1,50
+evtx_id=None
+scenario=Used no flags -> defaults to impersonate NT Authority\System
+
+[token::elevate::domainadmin]
+logs_range=51,100
+evtx_id=None
+scenario=Used "/domainadmin" flag -> searches for DA token and impersonates it

@@ -1,0 +1,22 @@
+<!-- Sysmon configuration to aid in lsadump::dcsync module execution analysis
+
+It simply logs mimikatz process creation and termination, for the sole purpose of helping log analysis by clearly
+separating different runs. The generated logs then need to be merged with the logs generated on the Domain Controller.
+This is due to the fact that different computers generate the logs we need:
+- the computer running Mimikatz generates sysmon events for process creation and termination
+- the Domain Controller computer generates audit events for domain replication services
+-->
+<Sysmon schemaversion="4.83">
+  <HashAlgorithms>SHA256</HashAlgorithms>
+  <CheckRevocation />
+  <DnsLookup>False</DnsLookup>
+  <ArchiveDirectory>Sysmon</ArchiveDirectory>
+  <EventFiltering>
+      <ProcessCreate onmatch="include">
+          <Image condition="contains">mimikatz</Image>
+      </ProcessCreate>
+      <ProcessTerminate onmatch="include">
+          <Image condition="contains">mimikatz</Image>
+      </ProcessTerminate>
+  </EventFiltering>
+</Sysmon>
