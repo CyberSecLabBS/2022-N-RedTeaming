@@ -1,0 +1,1440 @@
+NtQueryVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x0054171b (type=void *, size=0x4)
+	arg 2: 0x0 (type=int, size=0x4)
+	arg 3: 0x00f5fba4 (type=<struct>*, size=0x4)
+	arg 4: 0x1c (type=unsigned int, size=0x4)
+	arg 5: 0x00f5fb60 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5fb60 => 0x1c (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x0054171b (type=void *, size=0x4)
+	arg 2: 0x3 (type=int, size=0x4)
+	arg 3: 0x00f5fb88 (type=<struct>*, size=0x4)
+	arg 4: 0x1c (type=unsigned int, size=0x4)
+	arg 5: 0x00000000 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00000000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x0054171b (type=void *, size=0x4)
+	arg 2: 0x2 (type=int, size=0x4)
+	arg 3: 0x00f5fbe4 (type=<struct>*, size=0x4)
+	arg 4: 0x212 (type=unsigned int, size=0x4)
+	arg 5: 0x00000000 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00000000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtAllocateVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5fafc => 0x02ca3000 (type=void **, size=0x4)
+	arg 2: 0x0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5fb30 => 0x2000 (type=unsigned int*, size=0x4)
+	arg 4: MEM_COMMIT (type=named constant, value=0x1000, size=0x4)
+	arg 5: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5fafc => 0x02ca3000 (type=void **, size=0x4)
+	arg 3: 0x00f5fb30 => 0x2000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryInformationThread
+	arg 0: 0xfffffffe (type=HANDLE, size=0x4)
+	arg 1: 0x2a (type=int, size=0x4)
+	arg 2: 0x00f5eca4 (type=<struct>*, size=0x4)
+	arg 3: 0x4 (type=unsigned int, size=0x4)
+	arg 4: 0x00000000 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 2: <NYI> (type=<struct>*, size=0x4)
+	arg 4: 0x00000000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenSection
+	arg 0: 0x00f5ec60 (type=HANDLE*, size=0x4)
+	arg 1: 0xd (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x8c, name=20/22 "shcore.dll", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5ec60 => 0x184 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtMapViewOfSection
+	arg 0: 0x184 (type=HANDLE, size=0x4)
+	arg 1: 0xffffffff (type=HANDLE, size=0x4)
+	arg 2: 0x01150a68 => 0x00000000 (type=void **, size=0x4)
+	arg 3: 0x0 (type=unsigned int, size=0x4)
+	arg 4: 0x0 (type=unsigned int, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x011457fc => 0x0 (type=unsigned int*, size=0x4)
+	arg 7: 0x1 (type=int, size=0x4)
+	arg 8: MEM_ROTATE (type=named constant, value=0x800000, size=0x4)
+	arg 9: PAGE_EXECUTE_WRITECOPY (type=named constant, value=0x80, size=0x4)
+    succeeded =>
+	arg 2: 0x01150a68 => 0x75d30000 (type=void **, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x011457fc => 0x87000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtWow64IsProcessorFeaturePresent
+	arg 0: 0x1c (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x1 (type=NTSTATUS, size=0x4)
+NtQueryPerformanceCounter
+	arg 0: 0x00f5eb98 (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+    succeeded =>
+	arg 0: 0x14630a11de (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5ebd0 => 0x75dac000 (type=void **, size=0x4)
+	arg 2: 0x00f5ebd4 => 0x204 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5ebcc (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5ebd0 => 0x75dac000 (type=void **, size=0x4)
+	arg 2: 0x00f5ebd4 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5ebcc => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5eb9c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5eba0 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x00f5eba4 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5eb9c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5eba0 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5eba4 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5eb9c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5eba0 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5eba4 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5eb9c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5eba0 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5eba4 => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5ebd4 => 0x75da9000 (type=void **, size=0x4)
+	arg 2: 0x00f5ebd0 => 0x470 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x011457f0 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5ebd4 => 0x75da9000 (type=void **, size=0x4)
+	arg 2: 0x00f5ebd0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x011457f0 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenSection
+	arg 0: 0x00f5e5a8 (type=HANDLE*, size=0x4)
+	arg 1: 0xd (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x8c, name=20/22 "msvcrt.dll", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5e5a8 => 0x188 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtMapViewOfSection
+	arg 0: 0x188 (type=HANDLE, size=0x4)
+	arg 1: 0xffffffff (type=HANDLE, size=0x4)
+	arg 2: 0x01151778 => 0x00000000 (type=void **, size=0x4)
+	arg 3: 0x0 (type=unsigned int, size=0x4)
+	arg 4: 0x0 (type=unsigned int, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x011491bc => 0x0 (type=unsigned int*, size=0x4)
+	arg 7: 0x1 (type=int, size=0x4)
+	arg 8: MEM_ROTATE (type=named constant, value=0x800000, size=0x4)
+	arg 9: PAGE_EXECUTE_WRITECOPY (type=named constant, value=0x80, size=0x4)
+    succeeded =>
+	arg 2: 0x01151778 => 0x77190000 (type=void **, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x011491bc => 0xbf000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtWow64IsProcessorFeaturePresent
+	arg 0: 0x1c (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x1 (type=NTSTATUS, size=0x4)
+NtQueryPerformanceCounter
+	arg 0: 0x00f5e4e0 (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+    succeeded =>
+	arg 0: 0x14630b4bc1 (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e4e4 => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5e4e8 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x00f5e4ec (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e4e4 => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5e4e8 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5e4ec => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e4e4 => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5e4e8 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5e4ec (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e4e4 => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5e4e8 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5e4ec => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e51c => 0x77248000 (type=void **, size=0x4)
+	arg 2: 0x00f5e518 => 0x2b0 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x011491b0 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e51c => 0x77248000 (type=void **, size=0x4)
+	arg 2: 0x00f5e518 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x011491b0 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x188 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenSection
+	arg 0: 0x00f5e5a8 (type=HANDLE*, size=0x4)
+	arg 1: 0xd (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x8c, name=22/24 "combase.dll", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5e5a8 => 0x188 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtMapViewOfSection
+	arg 0: 0x188 (type=HANDLE, size=0x4)
+	arg 1: 0xffffffff (type=HANDLE, size=0x4)
+	arg 2: 0x011514b8 => 0x00000000 (type=void **, size=0x4)
+	arg 3: 0x0 (type=unsigned int, size=0x4)
+	arg 4: 0x0 (type=unsigned int, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x011451b4 => 0x0 (type=unsigned int*, size=0x4)
+	arg 7: 0x1 (type=int, size=0x4)
+	arg 8: MEM_ROTATE (type=named constant, value=0x800000, size=0x4)
+	arg 9: PAGE_EXECUTE_WRITECOPY (type=named constant, value=0x80, size=0x4)
+    succeeded =>
+	arg 2: 0x011514b8 => 0x772d0000 (type=void **, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x011451b4 => 0x280000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtWow64IsProcessorFeaturePresent
+	arg 0: 0x1c (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x1 (type=NTSTATUS, size=0x4)
+NtQueryPerformanceCounter
+	arg 0: 0x00f5e4e0 (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+    succeeded =>
+	arg 0: 0x14630bd93e (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e518 => 0x77517000 (type=void **, size=0x4)
+	arg 2: 0x00f5e51c => 0x31c (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5e514 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e518 => 0x77517000 (type=void **, size=0x4)
+	arg 2: 0x00f5e51c => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5e514 => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e4e4 => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5e4e8 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x00f5e4ec (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e4e4 => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5e4e8 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5e4ec => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e4e4 => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5e4e8 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5e4ec (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e4e4 => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5e4e8 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5e4ec => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e51c => 0x77512000 (type=void **, size=0x4)
+	arg 2: 0x00f5e518 => 0x934 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x011451a8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e51c => 0x77512000 (type=void **, size=0x4)
+	arg 2: 0x00f5e518 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x011451a8 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenSection
+	arg 0: 0x00f5def0 (type=HANDLE*, size=0x4)
+	arg 1: 0xd (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x8c, name=20/22 "RPCRT4.dll", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5def0 => 0x190 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtMapViewOfSection
+	arg 0: 0x190 (type=HANDLE, size=0x4)
+	arg 1: 0xffffffff (type=HANDLE, size=0x4)
+	arg 2: 0x01150bc8 => 0x00000000 (type=void **, size=0x4)
+	arg 3: 0x0 (type=unsigned int, size=0x4)
+	arg 4: 0x0 (type=unsigned int, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x01144cec => 0x0 (type=unsigned int*, size=0x4)
+	arg 7: 0x1 (type=int, size=0x4)
+	arg 8: MEM_ROTATE (type=named constant, value=0x800000, size=0x4)
+	arg 9: PAGE_EXECUTE_WRITECOPY (type=named constant, value=0x80, size=0x4)
+    succeeded =>
+	arg 2: 0x01150bc8 => 0x758a0000 (type=void **, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x01144cec => 0xbe000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtWow64IsProcessorFeaturePresent
+	arg 0: 0x1c (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x1 (type=NTSTATUS, size=0x4)
+NtQueryPerformanceCounter
+	arg 0: 0x00f5de28 (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+    succeeded =>
+	arg 0: 0x14630bf213 (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5de60 => 0x75951000 (type=void **, size=0x4)
+	arg 2: 0x00f5de64 => 0x144 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5de5c (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5de60 => 0x75951000 (type=void **, size=0x4)
+	arg 2: 0x00f5de64 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5de5c => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5de2c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5de30 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x00f5de34 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5de2c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5de30 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5de34 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5de2c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5de30 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5de34 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5de2c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5de30 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5de34 => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5de64 => 0x7594e000 (type=void **, size=0x4)
+	arg 2: 0x00f5de60 => 0x588 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x01144ce0 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5de64 => 0x7594e000 (type=void **, size=0x4)
+	arg 2: 0x00f5de60 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x01144ce0 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x190 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x188 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x184 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x0114919c => 0x77248000 (type=void **, size=0x4)
+	arg 2: 0x011491a0 => 0x2b0 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5eb8c (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x0114919c => 0x77248000 (type=void **, size=0x4)
+	arg 2: 0x011491a0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5eb8c => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSetInformationProcess
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x23 (type=int, size=0x4)
+	arg 2: 0x00f5eb40 (type=<struct>*, size=0x4)
+	arg 3: 0x1c (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x01144ccc => 0x7594e000 (type=void **, size=0x4)
+	arg 2: 0x01144cd0 => 0x588 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5eb8c (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x01144ccc => 0x7594e000 (type=void **, size=0x4)
+	arg 2: 0x01144cd0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5eb8c => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x01145194 => 0x77512000 (type=void **, size=0x4)
+	arg 2: 0x01145198 => 0x934 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5eb8c (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x01145194 => 0x77512000 (type=void **, size=0x4)
+	arg 2: 0x01145198 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5eb8c => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSetInformationProcess
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x23 (type=int, size=0x4)
+	arg 2: 0x00f5eb40 (type=<struct>*, size=0x4)
+	arg 3: 0x1c (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x011457dc => 0x75da9000 (type=void **, size=0x4)
+	arg 2: 0x011457e0 => 0x470 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5eb8c (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x011457dc => 0x75da9000 (type=void **, size=0x4)
+	arg 2: 0x011457e0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5eb8c => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSetInformationProcess
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x23 (type=int, size=0x4)
+	arg 2: 0x00f5eb40 (type=<struct>*, size=0x4)
+	arg 3: 0x1c (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtApphelpCacheControl
+	arg 0: 0x6 (type=unsigned int, size=0x4)
+	arg 1: 0/0 "" (type=UNICODE_STRING*, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtApphelpCacheControl
+	arg 0: 0x6 (type=unsigned int, size=0x4)
+	arg 1: 0/0 "" (type=UNICODE_STRING*, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtApphelpCacheControl
+	arg 0: 0x6 (type=unsigned int, size=0x4)
+	arg 1: 0/0 "" (type=UNICODE_STRING*, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtApphelpCacheControl
+	arg 0: 0x6 (type=unsigned int, size=0x4)
+	arg 1: 0/0 "" (type=UNICODE_STRING*, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSetInformationVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x4 (type=unsigned int, size=0x4)
+	arg 2: 0x1 (type=unsigned int, size=0x4)
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 4: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x4 (type=unsigned int, size=0x4)
+    failed (error=0xc00000bb) =>
+	retval: 0xc00000bb (type=NTSTATUS, size=0x4)
+NtAllocateVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e8d8 => 0x00000000 (type=void **, size=0x4)
+	arg 2: 0x0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e8d4 => 0x90000 (type=unsigned int*, size=0x4)
+	arg 4: MEM_RESERVE (type=named constant, value=0x2000, size=0x4)
+	arg 5: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e8d8 => 0x03140000 (type=void **, size=0x4)
+	arg 3: 0x00f5e8d4 => 0x90000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtFreeVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e8d8 => 0x03140000 (type=void **, size=0x4)
+	arg 2: 0x00f5e8dc => 0x80000 (type=unsigned int*, size=0x4)
+	arg 3: MEM_RELEASE (type=named constant, value=0x8000, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e8d8 => 0x03140000 (type=void **, size=0x4)
+	arg 2: 0x00f5e8dc => 0x80000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtAllocateVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e8e8 => 0x031c0000 (type=void **, size=0x4)
+	arg 2: 0x0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e8f0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: MEM_COMMIT (type=named constant, value=0x1000, size=0x4)
+	arg 5: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e8e8 => 0x031c0000 (type=void **, size=0x4)
+	arg 3: 0x00f5e8f0 => 0x1000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryVolumeInformationFile.FileFsDeviceInformation
+	arg 0: 0x174 (type=HANDLE, size=0x4)
+	arg 1: 0x00f5eac0 (type=IO_STATUS_BLOCK*, size=0x4)
+	arg 2: 0x00f5eac8 (type=<struct>*, size=0x4)
+	arg 3: 0x8 (type=unsigned int, size=0x4)
+	arg 4: 0x4 (type=named constant, size=0x4)
+    succeeded =>
+	arg 1: status=0x0, info=0x8 (type=IO_STATUS_BLOCK*, size=0x4)
+	arg 2: _FILE_FS_DEVICE_INFORMATION {int=0x50, int=0x20000} (type=<struct>*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryVolumeInformationFile.FileFsDeviceInformation
+	arg 0: 0x170 (type=HANDLE, size=0x4)
+	arg 1: 0x00f5eac0 (type=IO_STATUS_BLOCK*, size=0x4)
+	arg 2: 0x00f5eac8 (type=<struct>*, size=0x4)
+	arg 3: 0x8 (type=unsigned int, size=0x4)
+	arg 4: 0x4 (type=named constant, size=0x4)
+    succeeded =>
+	arg 1: status=0x0, info=0x8 (type=IO_STATUS_BLOCK*, size=0x4)
+	arg 2: _FILE_FS_DEVICE_INFORMATION {int=0x50, int=0x20000} (type=<struct>*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryVolumeInformationFile.FileFsDeviceInformation
+	arg 0: 0x16c (type=HANDLE, size=0x4)
+	arg 1: 0x00f5eac0 (type=IO_STATUS_BLOCK*, size=0x4)
+	arg 2: 0x00f5eac8 (type=<struct>*, size=0x4)
+	arg 3: 0x8 (type=unsigned int, size=0x4)
+	arg 4: 0x4 (type=named constant, size=0x4)
+    succeeded =>
+	arg 1: status=0x0, info=0x8 (type=IO_STATUS_BLOCK*, size=0x4)
+	arg 2: _FILE_FS_DEVICE_INFORMATION {int=0x50, int=0x20000} (type=<struct>*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtAllocateVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e86c => 0x01153000 (type=void **, size=0x4)
+	arg 2: 0x0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e8a0 => 0x2000 (type=unsigned int*, size=0x4)
+	arg 4: MEM_COMMIT (type=named constant, value=0x1000, size=0x4)
+	arg 5: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e86c => 0x01153000 (type=void **, size=0x4)
+	arg 3: 0x00f5e8a0 => 0x2000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtAllocateVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e844 => 0x031c1000 (type=void **, size=0x4)
+	arg 2: 0x0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e878 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: MEM_COMMIT (type=named constant, value=0x1000, size=0x4)
+	arg 5: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e844 => 0x031c1000 (type=void **, size=0x4)
+	arg 3: 0x00f5e878 => 0x1000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtAllocateVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e764 => 0x031c2000 (type=void **, size=0x4)
+	arg 2: 0x0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e798 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: MEM_COMMIT (type=named constant, value=0x1000, size=0x4)
+	arg 5: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e764 => 0x031c2000 (type=void **, size=0x4)
+	arg 3: 0x00f5e798 => 0x1000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSetInformationVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x4 (type=unsigned int, size=0x4)
+	arg 2: 0x1 (type=unsigned int, size=0x4)
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 4: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x4 (type=unsigned int, size=0x4)
+    failed (error=0xc00000bb) =>
+	retval: 0xc00000bb (type=NTSTATUS, size=0x4)
+NtSetInformationVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x4 (type=unsigned int, size=0x4)
+	arg 2: 0x1 (type=unsigned int, size=0x4)
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 4: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x4 (type=unsigned int, size=0x4)
+    failed (error=0xc00000bb) =>
+	retval: 0xc00000bb (type=NTSTATUS, size=0x4)
+NtWow64IsProcessorFeaturePresent
+	arg 0: 0xa (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x1 (type=NTSTATUS, size=0x4)
+NtWow64IsProcessorFeaturePresent
+	arg 0: 0xa (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x1 (type=NTSTATUS, size=0x4)
+NtOpenKeyEx
+	arg 0: 0x00f5ea58 (type=HANDLE*, size=0x4)
+	arg 1: 0x20019 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0xec, name=44/46 "SOFTWARE\Microsoft\OLE", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: REG_OPTION_RESERVED or REG_OPTION_NON_VOLATILE (type=named constant, value=0x0, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5ea58 => 0x184 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryValueKey
+	arg 0: 0x184 (type=HANDLE, size=0x4)
+	arg 1: 52/54 "PageAllocatorUseSystemHeap" (type=UNICODE_STRING*, size=0x4)
+	arg 2: 0x2 (type=int, size=0x4)
+	arg 3: 0x00f5e92c (type=<struct>*, size=0x4)
+	arg 4: 0x14 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e90c (type=unsigned int*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e90c => 0x7777bfb4 (type=unsigned int*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x184 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKeyEx
+	arg 0: 0x00f5ea58 (type=HANDLE*, size=0x4)
+	arg 1: 0x20019 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0xec, name=44/46 "SOFTWARE\Microsoft\OLE", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: REG_OPTION_RESERVED or REG_OPTION_NON_VOLATILE (type=named constant, value=0x0, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5ea58 => 0x184 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryValueKey
+	arg 0: 0x184 (type=HANDLE, size=0x4)
+	arg 1: 64/66 "PageAllocatorSystemHeapIsPrivate" (type=UNICODE_STRING*, size=0x4)
+	arg 2: 0x2 (type=int, size=0x4)
+	arg 3: 0x00f5e92c (type=<struct>*, size=0x4)
+	arg 4: 0x14 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e90c (type=unsigned int*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e90c => 0x7777bfb4 (type=unsigned int*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x184 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKeyEx
+	arg 0: 0x00f5ea64 (type=HANDLE*, size=0x4)
+	arg 1: 0x20019 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0xec, name=44/46 "SOFTWARE\Microsoft\OLE", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: REG_OPTION_RESERVED or REG_OPTION_NON_VOLATILE (type=named constant, value=0x0, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5ea64 => 0x184 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryValueKey
+	arg 0: 0x184 (type=HANDLE, size=0x4)
+	arg 1: 40/42 "AggressiveMTATesting" (type=UNICODE_STRING*, size=0x4)
+	arg 2: 0x2 (type=int, size=0x4)
+	arg 3: 0x00f5e938 (type=<struct>*, size=0x4)
+	arg 4: 0x10 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e918 (type=unsigned int*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e918 => 0x7777bfb4 (type=unsigned int*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x184 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryWnfStateData
+	arg 0: <NYI> (type=<struct>*, size=0x4)
+	arg 1: <null> (type=<struct>*, size=0x4)
+	arg 2: 0x00000000 (type=void, size=0x4)
+	arg 3: 0x00f5ea1c (type=unsigned int*, size=0x4)
+	arg 4: <null> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5ea18 => 0x0 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: 0x00f5ea1c => 0x0 (type=unsigned int*, size=0x4)
+	arg 4: <null> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5ea18 => 0x0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSubscribeWnfStateChange (details not all known)
+	arg 0: <NYI> (type=<unknown>*, size=0x4)
+	arg 1: <null> (type=<unknown>*, size=0x4)
+	arg 2: <NYI> (type=<unknown>*, size=0x4)
+	arg 3: <NYI> (type=<unknown>*, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryWnfStateData
+	arg 0: <NYI> (type=<struct>*, size=0x4)
+	arg 1: <null> (type=<struct>*, size=0x4)
+	arg 2: 0x00000000 (type=void, size=0x4)
+	arg 3: 0x00f5ea1c (type=unsigned int*, size=0x4)
+	arg 4: <null> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5ea18 => 0x0 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: 0x00f5ea1c => 0x0 (type=unsigned int*, size=0x4)
+	arg 4: <null> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5ea18 => 0x0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSubscribeWnfStateChange (details not all known)
+	arg 0: <NYI> (type=<unknown>*, size=0x4)
+	arg 1: <null> (type=<unknown>*, size=0x4)
+	arg 2: <NYI> (type=<unknown>*, size=0x4)
+	arg 3: <NYI> (type=<unknown>*, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryWnfStateData
+	arg 0: <NYI> (type=<struct>*, size=0x4)
+	arg 1: <null> (type=<struct>*, size=0x4)
+	arg 2: 0x00000000 (type=void, size=0x4)
+	arg 3: 0x00f5e8f4 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5e920 (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e8b0 => 0xc8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: 0x00f5e8f4 => 0x0 (type=unsigned int*, size=0x4)
+	arg 4: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e8b0 => 0x0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryInformationToken
+	arg 0: 0xfffffffc (type=HANDLE, size=0x4)
+	arg 1: 0x14 (type=int, size=0x4)
+	arg 2: 0x00f5ea14 (type=<struct>*, size=0x4)
+	arg 3: 0x4 (type=unsigned int, size=0x4)
+	arg 4: 0x00f5ea24 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 2: <NYI> (type=<struct>*, size=0x4)
+	arg 4: 0x00f5ea24 => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryInformationToken
+	arg 0: 0xfffffffc (type=HANDLE, size=0x4)
+	arg 1: 0x12 (type=int, size=0x4)
+	arg 2: 0x00f5ea18 (type=<struct>*, size=0x4)
+	arg 3: 0x4 (type=unsigned int, size=0x4)
+	arg 4: 0x00f5e9fc (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 2: <NYI> (type=<struct>*, size=0x4)
+	arg 4: 0x00f5e9fc => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKeyEx
+	arg 0: 0x00f5ea34 (type=HANDLE*, size=0x4)
+	arg 1: 0x20119 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0xec, name=0/2 "", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: REG_OPTION_RESERVED or REG_OPTION_NON_VOLATILE (type=named constant, value=0x0, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5ea34 => 0x184 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKeyEx
+	arg 0: 0x7751119c (type=HANDLE*, size=0x4)
+	arg 1: 0x20019 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x184, name=102/104 "Software\Microsoft\Ole\FeatureDevelopmentProperties", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: REG_OPTION_RESERVED or REG_OPTION_NON_VOLATILE (type=named constant, value=0x0, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x7751119c => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e8a0 (type=HANDLE*, size=0x4)
+	arg 1: 0x80000100 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x0, name=128/130 "\Registry\Machine\SOFTWARE\Microsoft\AppModel\Lookaside\Packages", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5e8a0 => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtOpenKeyEx
+	arg 0: 0x00f5e9f4 (type=HANDLE*, size=0x4)
+	arg 1: 0x20019 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x184, name=102/104 "Software\Microsoft\Ole\FeatureDevelopmentProperties", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: REG_OPTION_RESERVED or REG_OPTION_NON_VOLATILE (type=named constant, value=0x0, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5e9f4 => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtOpenKeyEx
+	arg 0: 0x00f5e9f4 (type=HANDLE*, size=0x4)
+	arg 1: 0x20019 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x184, name=44/46 "Software\Microsoft\Ole", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: REG_OPTION_RESERVED or REG_OPTION_NON_VOLATILE (type=named constant, value=0x0, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5e9f4 => 0x188 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtCreateEvent
+	arg 0: 0x00f5e98c (type=HANDLE*, size=0x4)
+	arg 1: 0x1f0003 (type=unsigned int, size=0x4)
+	arg 2: <null> (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: 0x0 (type=int, size=0x4)
+	arg 4: 0x0 (type=bool, size=0x1)
+    succeeded =>
+	arg 0: 0x00f5e98c => 0x190 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtNotifyChangeKey
+	arg 0: 0x188 (type=HANDLE, size=0x4)
+	arg 1: 0x190 (type=HANDLE, size=0x4)
+	arg 2: <null> (type=<function>, size=0x4)
+	arg 3: 0x00000000 (type=void, size=0x4)
+	arg 4: 0x77820a38 (type=IO_STATUS_BLOCK*, size=0x4)
+	arg 5: REG_NOTIFY_CHANGE_NAME (type=named constant, value=0x10000001, size=0x4)
+	arg 6: 0x0 (type=bool, size=0x1)
+	arg 7: <null> (type=<struct>*, size=0x4)
+	arg 8: 0x0 (type=unsigned int, size=0x4)
+	arg 9: 0x1 (type=bool, size=0x1)
+    succeeded =>
+	arg 4: status=0x0, info=0x0 (type=IO_STATUS_BLOCK*, size=0x4)
+	retval: 0x103 (type=NTSTATUS, size=0x4)
+NtOpenKeyEx
+	arg 0: 0x00f5e8cc (type=HANDLE*, size=0x4)
+	arg 1: 0x20019 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0xec, name=60/62 "Software\Microsoft\OLE\Tracing", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: REG_OPTION_RESERVED or REG_OPTION_NON_VOLATILE (type=named constant, value=0x0, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5e8cc => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e708 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e700 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e700 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e730 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e728 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e728 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0x1e (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0x18 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e780 (type=<struct>*, size=0x4)
+	arg 4: 0x78 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e778 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e778 => 0x78 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e730 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e728 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e728 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0x1e (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0x18 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e780 (type=<struct>*, size=0x4)
+	arg 4: 0x78 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e778 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e778 => 0x78 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtCreateEvent
+	arg 0: 0x00f5ea4c (type=HANDLE*, size=0x4)
+	arg 1: 0x1f0003 (type=unsigned int, size=0x4)
+	arg 2: <null> (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: 0x0 (type=int, size=0x4)
+	arg 4: 0x0 (type=bool, size=0x1)
+    succeeded =>
+	arg 0: 0x00f5ea4c => 0x1a4 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtCreateEvent
+	arg 0: 0x00f5ea4c (type=HANDLE*, size=0x4)
+	arg 1: 0x1f0003 (type=unsigned int, size=0x4)
+	arg 2: <null> (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: 0x1 (type=int, size=0x4)
+	arg 4: 0x0 (type=bool, size=0x1)
+    succeeded =>
+	arg 0: 0x00f5ea4c => 0x1a8 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtCreateEvent
+	arg 0: 0x00f5ea4c (type=HANDLE*, size=0x4)
+	arg 1: 0x1f0003 (type=unsigned int, size=0x4)
+	arg 2: <null> (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: 0x0 (type=int, size=0x4)
+	arg 4: 0x0 (type=bool, size=0x1)
+    succeeded =>
+	arg 0: 0x00f5ea4c => 0x1ac (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtCreateEvent
+	arg 0: 0x00f5ea4c (type=HANDLE*, size=0x4)
+	arg 1: 0x1f0003 (type=unsigned int, size=0x4)
+	arg 2: <null> (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: 0x1 (type=int, size=0x4)
+	arg 4: 0x0 (type=bool, size=0x1)
+    succeeded =>
+	arg 0: 0x00f5ea4c => 0x1b0 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtCreateEvent
+	arg 0: 0x00f5ea4c (type=HANDLE*, size=0x4)
+	arg 1: 0x1f0003 (type=unsigned int, size=0x4)
+	arg 2: <null> (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: 0x0 (type=int, size=0x4)
+	arg 4: 0x0 (type=bool, size=0x1)
+    succeeded =>
+	arg 0: 0x00f5ea4c => 0x1b4 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtCreateEvent
+	arg 0: 0x00f5ea4c (type=HANDLE*, size=0x4)
+	arg 1: 0x1f0003 (type=unsigned int, size=0x4)
+	arg 2: <null> (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 3: 0x1 (type=int, size=0x4)
+	arg 4: 0x0 (type=bool, size=0x1)
+    succeeded =>
+	arg 0: 0x00f5ea4c => 0x1b8 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenEvent
+	arg 0: 0x00f5ea7c (type=HANDLE*, size=0x4)
+	arg 1: 0x100000 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x50, name=52/54 "HookSwitchHookEnabledEvent", att=0x0, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5ea7c => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e9c0 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e9b8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e9b8 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e9c8 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e9c0 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e9c0 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e9c0 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e9b8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e9b8 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e9c0 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e9b8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e9b8 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e9c0 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e9b8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e9b8 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e990 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e988 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e988 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0x1e (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0x18 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e9e0 (type=<struct>*, size=0x4)
+	arg 4: 0x78 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e9d8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e9d8 => 0x78 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e990 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e988 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e988 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0x1e (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0x18 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e9e0 (type=<struct>*, size=0x4)
+	arg 4: 0x78 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e9d8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e9d8 => 0x78 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSetInformationVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x4 (type=unsigned int, size=0x4)
+	arg 2: 0x1 (type=unsigned int, size=0x4)
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 4: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x4 (type=unsigned int, size=0x4)
+    failed (error=0xc00000bb) =>
+	retval: 0xc00000bb (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e9e0 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e9d8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e9d8 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSetEvent
+	arg 0: 0x88 (type=HANDLE, size=0x4)
+	arg 1: 0x00000000 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00000000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5f01c => 0x767d50d0 (type=void **, size=0x4)
+	arg 2: 0x00f5f020 => 0xc (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x00f5f014 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5f01c => 0x767d5000 (type=void **, size=0x4)
+	arg 2: 0x00f5f020 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5f014 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5f01c => 0x767d5000 (type=void **, size=0x4)
+	arg 2: 0x00f5f020 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5f014 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5f01c => 0x767d5000 (type=void **, size=0x4)
+	arg 2: 0x00f5f020 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5f014 => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenSection
+	arg 0: 0x00f5dee0 (type=HANDLE*, size=0x4)
+	arg 1: 0xd (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x8c, name=22/24 "sechost.dll", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5dee0 => 0x1dc (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtMapViewOfSection
+	arg 0: 0x1dc (type=HANDLE, size=0x4)
+	arg 1: 0xffffffff (type=HANDLE, size=0x4)
+	arg 2: 0x01150f38 => 0x00000000 (type=void **, size=0x4)
+	arg 3: 0x0 (type=unsigned int, size=0x4)
+	arg 4: 0x0 (type=unsigned int, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x011457fc => 0x0 (type=unsigned int*, size=0x4)
+	arg 7: 0x1 (type=int, size=0x4)
+	arg 8: MEM_ROTATE (type=named constant, value=0x800000, size=0x4)
+	arg 9: PAGE_EXECUTE_WRITECOPY (type=named constant, value=0x80, size=0x4)
+    succeeded =>
+	arg 2: 0x01150f38 => 0x77250000 (type=void **, size=0x4)
+	arg 5: <null> (type=LARGE_INTEGER*, size=0x4)
+	arg 6: 0x011457fc => 0x76000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtWow64IsProcessorFeaturePresent
+	arg 0: 0x1c (type=unsigned int, size=0x4)
+    succeeded =>
+	retval: 0x1 (type=NTSTATUS, size=0x4)
+NtQueryPerformanceCounter
+	arg 0: 0x00f5de18 (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+    succeeded =>
+	arg 0: 0x1463146130 (type=LARGE_INTEGER*, size=0x4)
+	arg 1: <null> (type=LARGE_INTEGER*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5de50 => 0x772be000 (type=void **, size=0x4)
+	arg 2: 0x00f5de54 => 0x90 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5de4c (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5de50 => 0x772be000 (type=void **, size=0x4)
+	arg 2: 0x00f5de54 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5de4c => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5de1c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5de20 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x00f5de24 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5de1c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5de20 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5de24 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5de1c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5de20 => 0x2378 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5de24 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5de1c => 0x77999000 (type=void **, size=0x4)
+	arg 2: 0x00f5de20 => 0x3000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5de24 => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5de54 => 0x772bb000 (type=void **, size=0x4)
+	arg 2: 0x00f5de50 => 0x58c (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x011457f0 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5de54 => 0x772bb000 (type=void **, size=0x4)
+	arg 2: 0x00f5de50 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x011457f0 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x1dc (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x011457dc => 0x772bb000 (type=void **, size=0x4)
+	arg 2: 0x011457e0 => 0x58c (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5de0c (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x011457dc => 0x772bb000 (type=void **, size=0x4)
+	arg 2: 0x011457e0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5de0c => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtApphelpCacheControl
+	arg 0: 0x6 (type=unsigned int, size=0x4)
+	arg 1: 0/0 "" (type=UNICODE_STRING*, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSetInformationVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x4 (type=unsigned int, size=0x4)
+	arg 2: 0x1 (type=unsigned int, size=0x4)
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 4: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x4 (type=unsigned int, size=0x4)
+    failed (error=0xc00000bb) =>
+	retval: 0xc00000bb (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5dc10 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5dc08 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5dc08 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0x1e (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0x18 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5dc60 (type=<struct>*, size=0x4)
+	arg 4: 0x78 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5dc58 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5dc58 => 0x78 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5dc18 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5dc10 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5dc10 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0x1e (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0x18 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5dc68 (type=<struct>*, size=0x4)
+	arg 4: 0x78 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5dc60 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5dc60 => 0x78 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtSetEvent
+	arg 0: 0x88 (type=HANDLE, size=0x4)
+	arg 1: 0x00000000 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00000000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e29c => 0x77829000 (type=void **, size=0x4)
+	arg 2: 0x00f5e2a0 => 0x4 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+	arg 4: 0x00f5e294 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e29c => 0x77829000 (type=void **, size=0x4)
+	arg 2: 0x00f5e2a0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5e294 => 0x2 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtProtectVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5e29c => 0x77829000 (type=void **, size=0x4)
+	arg 2: 0x00f5e2a0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 3: PAGE_READONLY (type=named constant, value=0x2, size=0x4)
+	arg 4: 0x00f5e294 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5e29c => 0x77829000 (type=void **, size=0x4)
+	arg 2: 0x00f5e2a0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: 0x00f5e294 => 0x4 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtAllocateVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5dfac => 0x01155000 (type=void **, size=0x4)
+	arg 2: 0x0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5dfe0 => 0x2000 (type=unsigned int*, size=0x4)
+	arg 4: MEM_COMMIT (type=named constant, value=0x1000, size=0x4)
+	arg 5: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5dfac => 0x01155000 (type=void **, size=0x4)
+	arg 3: 0x00f5dfe0 => 0x2000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e578 (type=HANDLE*, size=0x4)
+	arg 1: 0x9 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0xd0, name=22/0 "soffice.exe", att=0x240, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5e578 => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e5c4 (type=HANDLE*, size=0x4)
+	arg 1: 0x101 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x0, name=106/108 "\Registry\Machine\Software\Microsoft\Wow64\x86\xtajit", att=0x640, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5e5c4 => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtCreateUserProcess
+	arg 0: 0x00f5ea9c (type=HANDLE*, size=0x4)
+	arg 1: 0x00f5ea68 (type=HANDLE*, size=0x4)
+	arg 2: 0x2000000 (type=unsigned int, size=0x4)
+	arg 3: 0x2000000 (type=unsigned int, size=0x4)
+	arg 4: <null> (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 5: <null> (type=OBJECT_ATTRIBUTES*, size=0x4)
+	arg 6: 0x204 (type=unsigned int, size=0x4)
+	arg 7: 0x1 (type=bool, size=0x1)
+	arg 8: <NYI> (type=<struct>*, size=0x4)
+	arg 9: <NYI> (type=<unknown>*, size=0x4)
+	arg 10: <NYI> (type=<struct>*, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5ea9c => 0x1e8 (type=HANDLE*, size=0x4)
+	arg 1: 0x00f5ea68 => 0x1e4 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e5e0 (type=HANDLE*, size=0x4)
+	arg 1: 0x1 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x0, name=156/158 "\Registry\MACHINE\System\CurrentControlSet\Control\Session Manager\AppCertDlls", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5e5e0 => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtOpenProcessToken
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0xa (type=unsigned int, size=0x4)
+	arg 2: 0x00f5e344 (type=HANDLE*, size=0x4)
+    succeeded =>
+	arg 2: 0x00f5e344 => 0x1f4 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryInformationToken
+	arg 0: 0x1f4 (type=HANDLE, size=0x4)
+	arg 1: 0x1 (type=int, size=0x4)
+	arg 2: 0x00f5e550 (type=<struct>*, size=0x4)
+	arg 3: 0x88 (type=unsigned int, size=0x4)
+	arg 4: 0x00f5e398 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 2: <NYI> (type=<struct>*, size=0x4)
+	arg 4: 0x00f5e398 => 0x24 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e360 (type=HANDLE*, size=0x4)
+	arg 1: 0x3 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x0, name=132/134 "\Registry\MACHINE\System\CurrentControlSet\Control\SafeBoot\Option", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5e360 => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e348 (type=HANDLE*, size=0x4)
+	arg 1: 0x1 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x0, name=150/152 "\Registry\Machine\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5e348 => 0x1f8 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryValueKey
+	arg 0: 0x1f8 (type=HANDLE, size=0x4)
+	arg 1: 36/38 "TransparentEnabled" (type=UNICODE_STRING*, size=0x4)
+	arg 2: 0x2 (type=int, size=0x4)
+	arg 3: 0x00f5e430 (type=<struct>*, size=0x4)
+	arg 4: 0x50 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e364 (type=unsigned int*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e364 => 0x1140000 (type=unsigned int*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtQueryValueKey
+	arg 0: 0x1f8 (type=HANDLE, size=0x4)
+	arg 1: 38/40 "AuthenticodeEnabled" (type=UNICODE_STRING*, size=0x4)
+	arg 2: 0x2 (type=int, size=0x4)
+	arg 3: 0x00f5e430 (type=<struct>*, size=0x4)
+	arg 4: 0x50 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e364 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e364 => 0x10 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x1f8 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryInformationToken
+	arg 0: 0xfffffffa (type=HANDLE, size=0x4)
+	arg 1: 0x1 (type=int, size=0x4)
+	arg 2: 0x00f5e2c8 (type=<struct>*, size=0x4)
+	arg 3: 0x50 (type=unsigned int, size=0x4)
+	arg 4: 0x00f5e2b8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 2: <NYI> (type=<struct>*, size=0x4)
+	arg 4: 0x00f5e2b8 => 0x24 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e348 (type=HANDLE*, size=0x4)
+	arg 1: 0x1 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x0, name=234/238 "\REGISTRY\USER\S-1-5-21-61473274-2357104227-2427908282-1001\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5e348 => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x1f4 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtTraceControl
+	arg 0: 0xf (type=unsigned int, size=0x4)
+	arg 1: <NYI> (type=<unknown>*, size=0x4)
+	arg 2: 0xa0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5e468 (type=<struct>*, size=0x4)
+	arg 4: 0xa0 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e460 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e460 => 0xa0 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtAllocateVirtualMemory
+	arg 0: 0xffffffff (type=HANDLE, size=0x4)
+	arg 1: 0x00f5debc => 0x01157000 (type=void **, size=0x4)
+	arg 2: 0x0 (type=unsigned int, size=0x4)
+	arg 3: 0x00f5def0 => 0x1000 (type=unsigned int*, size=0x4)
+	arg 4: MEM_COMMIT (type=named constant, value=0x1000, size=0x4)
+	arg 5: PAGE_READWRITE (type=named constant, value=0x4, size=0x4)
+    succeeded =>
+	arg 1: 0x00f5debc => 0x01157000 (type=void **, size=0x4)
+	arg 3: 0x00f5def0 => 0x1000 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryInformationToken
+	arg 0: 0xfffffffa (type=HANDLE, size=0x4)
+	arg 1: 0x1 (type=int, size=0x4)
+	arg 2: 0x00f5e310 (type=<struct>*, size=0x4)
+	arg 3: 0x50 (type=unsigned int, size=0x4)
+	arg 4: 0x00f5e300 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 2: <NYI> (type=<struct>*, size=0x4)
+	arg 4: 0x00f5e300 => 0x24 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e3bc (type=HANDLE*, size=0x4)
+	arg 1: 0x1 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x0, name=248/520 "\REGISTRY\USER\S-1-5-21-61473274-2357104227-2427908282-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5e3bc => 0x1f8 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryValueKey
+	arg 0: 0x1f8 (type=HANDLE, size=0x4)
+	arg 1: 10/12 "Cache" (type=UNICODE_STRING*, size=0x4)
+	arg 2: 0x1 (type=int, size=0x4)
+	arg 3: 0x01157078 (type=<struct>*, size=0x4)
+	arg 4: 0x208 (type=unsigned int, size=0x4)
+	arg 5: 0x00f5e3b8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 3: <NYI> (type=<struct>*, size=0x4)
+	arg 5: 0x00f5e3b8 => 0x92 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtClose
+	arg 0: 0x1f8 (type=HANDLE, size=0x4)
+    succeeded =>
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtQueryInformationToken
+	arg 0: 0xfffffffa (type=HANDLE, size=0x4)
+	arg 1: 0x1 (type=int, size=0x4)
+	arg 2: 0x00f5e308 (type=<struct>*, size=0x4)
+	arg 3: 0x50 (type=unsigned int, size=0x4)
+	arg 4: 0x00f5e2f8 (type=unsigned int*, size=0x4)
+    succeeded =>
+	arg 2: <NYI> (type=<struct>*, size=0x4)
+	arg 4: 0x00f5e2f8 => 0x24 (type=unsigned int*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e3d0 (type=HANDLE*, size=0x4)
+	arg 1: 0x8 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x0, name=208/210 "\REGISTRY\USER\S-1-5-21-61473274-2357104227-2427908282-1001\Software\Microsoft\Windows NT\CurrentVersion", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    succeeded =>
+	arg 0: 0x00f5e3d0 => 0x1f8 (type=HANDLE*, size=0x4)
+	retval: 0x0 (type=NTSTATUS, size=0x4)
+NtOpenKey
+	arg 0: 0x00f5e3cc (type=HANDLE*, size=0x4)
+	arg 1: 0x101 (type=unsigned int, size=0x4)
+	arg 2: len=0x18, root=0x1f8, name=42/44 "AppCompatFlags\Layers", att=0x40, sd=0x00000000, sqos=0x00000000 (type=OBJECT_ATTRIBUTES*, size=0x4)
+    failed (error=0xc0000034) =>
+	arg 0: 0x00f5e3cc => 0x0 (type=HANDLE*, size=0x4)
+	retval: 0xc0000034 (type=NTSTATUS, size=0x4)
